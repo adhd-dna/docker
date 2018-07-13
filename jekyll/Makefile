@@ -1,6 +1,6 @@
 NAME = jekyll
 VERSION = 0.0.2
-REPO = aerobatic/jekyll
+REPO = adhddna/jekyll
 
 build:
 	docker build --rm=false -t $(REPO):$(VERSION) .
